@@ -1,0 +1,165 @@
+.page {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(82, 227, 227), rgb(4, 111, 111));
+}
+
+.RegForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(6, 59, 83);
+    width: 35%;
+    padding: 20px 0px;
+    margin: auto;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    padding-right: 5px;
+    color: rgb(222, 219, 219);
+    border-right: 1.5px solid rgb(103, 102, 102);
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+input::placeholder {
+    font-weight: 500;
+    font-family: cursive;
+    color: rgb(222, 219, 219);
+}
+
+.formHead {
+    position: relative;
+    height: 40px;
+    top: -40px;
+    padding: 0px 5px;
+    background-color: rgb(13, 188, 188);
+    border-radius: 5px;
+}
+
+.formHead p {
+    font-size: 25px;
+    color: rgb(6, 59, 83);
+}
+
+.icon {
+    margin-top: -40px;
+    font-size: 90px;
+    color: gray;
+}
+  
+.inputFeild {
+    background-color: rgb(173, 169, 169);
+    padding: 5px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+.date {
+    width: 70%;
+    border-radius: 5px;
+    background-color: rgb(173, 169, 169);
+    padding: 5px;
+}
+
+.RegBtn {
+    width: 40%;
+    background-color: rgb(47, 196, 191);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(6, 59, 83);
+    font-weight: 600;
+}
+
+.login-form {
+    gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1.5px solid #ddd;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(6, 59, 83);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form input{
+    width: 90%;
+}
+
+.LogIcon {
+    width: 100%;
+    position: relative;
+    top: -85px;
+    font-size: 60px;
+}
+
+.login-form h2 {
+    margin-top: -90px;
+}
+
+.login-form button {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.userDash {
+    width: 55%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+}
+
+.userDash h1 {
+    color: white;
+}
+
+.userDash table,
+th,
+tr,
+td {
+    border: 1px solid;
+    padding: 5px 8px;
+}
+
+.userDash table {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.userDash thead {
+    background-color: black;
+    color: white;
+}
+
+.userDash tbody {
+    background-color: rgb(234, 241, 239);
+}
+
+.actions{
+    border: none;
+    gap: 5px;
+}
