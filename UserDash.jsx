@@ -4,8 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { RiArrowGoBackFill } from "react-icons/ri";  // Import icons
 
 function UserDash() {
-  const [users, setUsers] = useState([]);  // State to store fetched user data
-  const navigate = useNavigate(); // useNavigate for redirection after edit or delete
+  const [users, setUsers] = useState([]);  
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     // Fetch user data from backend API on component mount
