@@ -10,7 +10,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(6, 59, 83);
-    width: 35%;
+    width: 360px;
     padding: 20px 0px;
     margin: auto;
     gap: 10px;
@@ -103,9 +103,9 @@ input::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 350px;
     margin: auto;
-    padding: 20px;
+    padding: 10px 0px;
     border: 1.5px solid #ddd;
     border-radius: 5px;
     color: white;
@@ -139,7 +139,7 @@ input::placeholder {
 .userDash {
     width: 55%;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
@@ -176,3 +176,32 @@ td {
     border: none;
     gap: 5px;
 }
+
+/* @media (min-width: 468px) {
+    .RegForm, .login-form {
+        width: 70%;
+    }
+
+    .userDash {
+        width: 80%;
+    }
+    
+    .icon {
+        font-size: 70px;
+    }
+} */
+
+/* Large Screens (Desktops) */
+/* @media (min-width: 1024px) {
+    .RegForm, .login-form {
+        width: 35%;
+    }
+
+    .userDash {
+        width: 55%;
+    }
+
+    .icon {
+        font-size: 90px;
+    }
+} */

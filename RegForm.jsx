@@ -7,7 +7,6 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { MdDateRange } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 
-
 function RegForm() {
   // State to hold registration form data (name, dateOfBirth, email, password)
   const [regData, setRegData] = useState({
@@ -30,7 +29,7 @@ function RegForm() {
     try {
       // Send registration data to the backend API using axios
       const response = await axios.post(
-        `${process.env.FORM_API_URL}/new-user`,
+        "http://localhost:3032/new-user",
         regData
       );
 
@@ -48,7 +47,7 @@ function RegForm() {
       alert("Registration failed, please try again");
     }
   };
-  
+
   return (
     <div className="container-fluid page">
       <form
@@ -61,7 +60,7 @@ function RegForm() {
         </div>
 
         {/* User icon to represent the registration form */}
-        <div className="UserIcon" style={{}} >
+        <div className="UserIcon" style={{}}>
           <PiUserCircleFill className="icon " />
         </div>
 
